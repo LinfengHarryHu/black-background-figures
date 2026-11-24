@@ -1,0 +1,4 @@
+interface:
+  display_name: "Black Background Figures"
+  short_description: "Adapt scientific figures for dark research slides"
+  default_prompt: "Adapt these figures for black-background slides while preserving the scientific evidence."
