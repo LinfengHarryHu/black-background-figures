@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-23",
+  "timezone": "America/Los_Angeles",
+  "scope": "Local tests, not CI or independent external review",
+  "version": "0.2.0",
+  "passed": true,
+  "tests_run": 20,
+  "tests": [
+    "test_pixel_theme.PixelThemeTests.test_cli_and_optimized_python",
+    "test_pixel_theme.PixelThemeTests.test_color_collision_refused",
+    "test_pixel_theme.PixelThemeTests.test_double_inversion",
+    "test_pixel_theme.PixelThemeTests.test_every_sidecar_collision_refused",
+    "test_pixel_theme.PixelThemeTests.test_exact_color_map",
+    "test_pixel_theme.PixelThemeTests.test_exact_known_pixels_and_alpha",
+    "test_pixel_theme.PixelThemeTests.test_grayscale_profile_not_silently_reinterpreted",
+    "test_pixel_theme.PixelThemeTests.test_invalid_rectangles_refused",
+    "test_pixel_theme.PixelThemeTests.test_keep_recoloring_refused",
+    "test_pixel_theme.PixelThemeTests.test_mask_tamper_detected",
+    "test_pixel_theme.PixelThemeTests.test_measurement_inversion_refused",
+    "test_pixel_theme.PixelThemeTests.test_measurement_keep_is_byte_identical",
+    "test_pixel_theme.PixelThemeTests.test_nonidentity_orientation_refused",
+    "test_pixel_theme.PixelThemeTests.test_output_tamper_detected_even_if_file_hash_updated",
+    "test_pixel_theme.PixelThemeTests.test_palette_input_refused",
+    "test_pixel_theme.PixelThemeTests.test_precision_and_color_metadata",
+    "test_pixel_theme.PixelThemeTests.test_random_image_inverse_and_unselected_pixels",
+    "test_pixel_theme.PixelThemeTests.test_sixteen_bit_refused",
+    "test_pixel_theme.PixelThemeTests.test_source_unchanged",
+    "test_pixel_theme.PixelThemeTests.test_tolerance_and_protected_pixels"
+  ],
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0"
+  },
+  "sha256": {
+    "scripts/pixel_theme.py": "32d9f04082c73f231c2392b08efdabc380e26bf78b8f5334cebf2347d1e9cff5",
+    "scripts/verify_theme.py": "1d6959fc74a8eba05ecd49f3b186b11d3e50ed1d68d9fc126bacc84ce69e77de",
+    "tests/test_pixel_theme.py": "279d79a62236778dafd4cba6b2674fdeab9327d354c63f2ad7b3cd9214ae1fc6"
+  },
+  "synthetic_verification_passed": true
+}
