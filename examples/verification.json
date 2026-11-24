@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "source_file_hash": true,
+    "output_file_hash": true,
+    "mask_file_hash": true,
+    "dimensions": true,
+    "exact_transform_replay": true,
+    "exact_selection_mask": true,
+    "alpha_unchanged": true,
+    "source_pixel_hash": true,
+    "output_pixel_hash": true,
+    "script_version_hash": true,
+    "color_metadata_preserved": true,
+    "unselected_pixels_unchanged": true,
+    "inverse_with_saved_mask_restores_pixels": true
+  },
+  "visual_review": {
+    "status": "accepted",
+    "date": "2026-11-23",
+    "reviewer": "AI assistant",
+    "scope": "Full-size synthetic original/adapted comparison; labels, minus sign, arrow, error bars and four colors inspected. No projected-slide claim."
+  },
+  "claim_boundary": "Checks exact transformation relative to the supplied source. Does not authenticate that source or prove visual equivalence."
+}

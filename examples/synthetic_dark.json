@@ -1,0 +1,46 @@
+{
+  "schema": "pixel-theme/v2",
+  "tool_version": "0.2.0",
+  "script_sha256": "32d9f04082c73f231c2392b08efdabc380e26bf78b8f5334cebf2347d1e9cff5",
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0"
+  },
+  "source": "synthetic_original.png",
+  "output": "synthetic_dark.png",
+  "mask": "synthetic_dark.mask.png",
+  "comparison": "synthetic_dark.comparison.png",
+  "source_sha256": "99a25d4077ca0bbd99df155f6ba01f25ee692003b6f4dff97dc712902c37ef24",
+  "output_sha256": "236ee362dd6f8721080f7b344dbbd77809239581ec5d4e285fa518be2c4b8850",
+  "mask_sha256": "feef82f621478183041e5fc6fe9487576ca754776a3b0e3e4b8f08e013ffe766",
+  "source_mode": "RGB",
+  "decoded_mode": "RGBA",
+  "dimensions": [
+    640,
+    420
+  ],
+  "options": {
+    "kind": "line-art",
+    "mode": "neutral-invert",
+    "chroma_tolerance": 0,
+    "protected_regions": [],
+    "color_map": {}
+  },
+  "source_rgba_sha256": "7beed1cfa009d3ddb385fde546273f625cb0ff157caae098fbe4c1a9ce023235",
+  "output_rgba_sha256": "f8d83c242080d8f04e3b7e310a345b18215b38c054317dd14f8e8e7aba3b12d8",
+  "pixels_selected": 267916,
+  "pixels_modified": 267916,
+  "retained_color_metadata": [],
+  "alpha_unchanged": true,
+  "unselected_pixels_unchanged": true,
+  "resampling": false,
+  "generative_model_used": false,
+  "visual_review": {
+    "status": "accepted",
+    "date": "2026-11-23",
+    "reviewer": "AI assistant",
+    "scope": "Full-size synthetic original/adapted comparison; labels, minus sign, arrow, error bars and four colors inspected. No projected-slide claim."
+  },
+  "claim_boundary": "Exact specified color transform, not proof of perceptual or scientific equivalence."
+}
